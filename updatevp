@@ -8,3 +8,7 @@ git pull origin
 cd ~/.vim/bundle/syntastic
 printf "syntastic: "
 git pull origin
+cd ~/.vim/bundle/rust.vim
+printf "rust.vim: "
+git pull origin
+curl -LSso ~/.vim/colors/zenburn.vim https://raw.githubusercontent.com/jnurmine/Zenburn/master/colors/zenburn.vim

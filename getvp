@@ -1,7 +1,9 @@
 #!/bin/bash
-mkdir -p ~/.vim/autoload ~/.vim/bundle
+mkdir -p ~/.vim/autoload ~/.vim/bundle ~/.vim/colors
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 cd ~/.vim/bundle
 git clone https://github.com/kien/ctrlp.vim.git
 git clone https://github.com/scrooloose/nerdtree.git
 git clone https://github.com/scrooloose/syntastic.git
+git clone https://github.com/wting/rust.vim.git
+curl -LSso ~/.vim/colors/zenburn.vim https://raw.githubusercontent.com/jnurmine/Zenburn/master/colors/zenburn.vim
