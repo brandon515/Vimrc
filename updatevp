@@ -11,4 +11,7 @@ git pull origin
 cd ~/.vim/bundle/rust.vim
 printf "rust.vim: "
 git pull origin
+cd ~/.vim/bundle/vim-airline
+printf "vim airlne: "
+git pull origin
 curl -LSso ~/.vim/colors/zenburn.vim https://raw.githubusercontent.com/jnurmine/Zenburn/master/colors/zenburn.vim

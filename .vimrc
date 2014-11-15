@@ -19,4 +19,6 @@ nmap <C-n> :bnext<CR>
 nmap ; :CtrlPBuffer<CR>
 nmap ' :CtrlP<CR>
 nmap <C-p> :bprev<CR>
+nmap <Esc><Esc> :w<CR>
+set laststatus=2
 colors zenburn
