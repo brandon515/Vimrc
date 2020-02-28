@@ -8,3 +8,10 @@ git clone https://github.com/scrooloose/syntastic.git
 git clone https://github.com/wting/rust.vim.git
 git clone https://github.com/bling/vim-airline.git
 curl -LSso ~/.vim/colors/zenburn.vim https://raw.githubusercontent.com/jnurmine/Zenburn/master/colors/zenburn.vim
+mkdir -p ~/.vim/pack/bundles/start
+cd ~/.vim/pack/bundles/start
+git clone --depth 1 https://github.com/prabirshrestha/async.vim
+git clone --depth 1 https://github.com/prabirshrestha/vim-lsp
+git clone --depth 1 https://github.com/prabirshrestha/asyncomplete.vim
+git clone --depth 1 https://github.com/prabirshrestha/asyncomplete-lsp.vim
+git clone --depth 1 https://github.com/rust-lang/rust.vim
