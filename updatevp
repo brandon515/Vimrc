@@ -8,10 +8,22 @@ git pull origin
 cd ~/.vim/bundle/syntastic
 printf "syntastic: "
 git pull origin
-cd ~/.vim/bundle/rust.vim
-printf "rust.vim: "
-git pull origin
 cd ~/.vim/bundle/vim-airline
 printf "vim airlne: "
 git pull origin
 curl -LSso ~/.vim/colors/zenburn.vim https://raw.githubusercontent.com/jnurmine/Zenburn/master/colors/zenburn.vim
+cd ~/.vim/pack/bundles/start/async.vim
+printf "async.vim: "
+git pull origin
+cd ~/.vim/pack/bundles/start/asyncomplete-lsp.vim
+printf "asynccomplete-lsp.vim: "
+git pull origin
+cd ~/.vim/pack/bundles/start/asyncomplete.vim
+printf "asynccomplete.vim: "
+git pull origin
+cd ~/.vim/pack/bundles/start/rust.vim
+printf "rust.vim: "
+git pull origin
+cd ~/.vim/pack/bundles/start/vim-lsp
+printf "vim-lsp: "
+git pull origin
