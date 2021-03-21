@@ -14,3 +14,4 @@ git clone --depth 1 https://github.com/prabirshrestha/vim-lsp
 git clone --depth 1 https://github.com/prabirshrestha/asyncomplete.vim
 git clone --depth 1 https://github.com/prabirshrestha/asyncomplete-lsp.vim
 git clone --depth 1 https://github.com/rust-lang/rust.vim
+cp ./.vimrc ~/
