@@ -1,4 +1,5 @@
 #!/bin/bash
+cwd=$(pwd)
 mkdir -p ~/.vim/autoload ~/.vim/bundle ~/.vim/colors
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 cd ~/.vim/bundle
@@ -14,4 +15,5 @@ git clone --depth 1 https://github.com/prabirshrestha/vim-lsp
 git clone --depth 1 https://github.com/prabirshrestha/asyncomplete.vim
 git clone --depth 1 https://github.com/prabirshrestha/asyncomplete-lsp.vim
 git clone --depth 1 https://github.com/rust-lang/rust.vim
+cd $cwd
 cp ./.vimrc ~/
